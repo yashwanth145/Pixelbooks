@@ -1,0 +1,29 @@
+.sidebar {
+    height: 100vh; /* Full viewport height */
+    overflow-y: scroll; /* Enable vertical scrolling */
+    width: 250px; /* Width of the sidebar */
+    position: fixed; /* Fix it on the left side */
+    top: 0;
+    left: 0;
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 100px;
+  }
+  
+  .sidebar::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+  }
+  
+  .sidebar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  .sidebar::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+  }
+  
+  .sidebar::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
